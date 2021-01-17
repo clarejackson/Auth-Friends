@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import { PrivateRoute } from "./components/PrivateRoute";
 import Login from './components/Login';
+import FriendsList from './components/FriendsList';
+
 
 function App() {
   return (
