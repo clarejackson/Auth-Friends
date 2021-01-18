@@ -6,12 +6,12 @@ class FriendsList extends React.Component {
     friendsList: []
   };
 
-  componentDidMount() {
-    this.getData();
-  };
+  // componentDidMount() {
+  //   this.getData();
+  // };
 
   getData = () => {
-    axiosWithAuth().get("/friends")
+    axiosWithAuth().get("/api/friends")
     .then(res => {
       console.log(res)
     })
