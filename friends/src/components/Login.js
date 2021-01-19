@@ -1,12 +1,13 @@
 import React from "react";
 import axios from "axios";
+import Loader from 'react-loader-spinner';
 
 class Login extends React.Component {
   state = {
     credentials: {
       username: '',
       password: '',
-      // isLoading: ''
+      isLoading: false
     }
   };
 
@@ -47,6 +48,15 @@ class Login extends React.Component {
             onChange={this.handleChange}
             />
             <button>Login</button>
+            {this.state.credentials.isLoading === true && (
+              <Loader 
+              type="Puff"
+              color="#00BFFF"
+              height={100}
+              width={100}
+              timeout={3000}
+              />
+            )}
         </form>
 
       </div>

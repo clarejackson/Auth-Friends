@@ -5,9 +5,9 @@ import { PrivateRoute } from "./components/PrivateRoute";
 import Login from './components/Login';
 import FriendsList from './components/FriendsList';
 import NewFriend from './components/NewFriend';
-import { Navbar, Nav, Button, Container } from "react-bootstrap"
+import { Navbar, Nav, Container } from "react-bootstrap"
 
-function App(props) {
+function App() {
   const logout = () => {
     localStorage.removeItem("token");
   }
