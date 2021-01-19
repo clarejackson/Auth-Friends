@@ -1,3 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brand {
+  font-family: cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 2rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
 .App {
   text-align: center;
 }
