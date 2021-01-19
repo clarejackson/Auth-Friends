@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Container>
       <Navbar className="nav" variant="dark" expand="lg" style={{ backgroundColor: '#F64C3C' }}>
-      <Navbar.Brand className="brand" style={{ color: "black" }}>Find Friends!</Navbar.Brand>
+      <Navbar.Brand className="brand" style={{ color: "black" }}>Make Friends!</Navbar.Brand>
         <Navbar.Collapse className="nav-container" id="responsive-navbar-nav">
           <Nav className="mr-auto">
           <Nav.Link className="nav-link" href="/login">Login</Nav.Link>
